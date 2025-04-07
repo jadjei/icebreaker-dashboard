@@ -1207,7 +1207,10 @@
           "color": {
             "mode": "thresholds"
           },
+          "fieldMinMax": false,
           "mappings": [],
+          "max": 1024,
+          "min": 0,
           "thresholds": {
             "mode": "percentage",
             "steps": [
@@ -1215,12 +1218,12 @@
                 "color": "green"
               },
               {
-                "color": "red",
+                "color": "yellow",
                 "value": 70
               },
               {
-                "color": "#EAB839",
-                "value": 100
+                "color": "red",
+                "value": 90
               }
             ]
           },
@@ -1299,12 +1302,12 @@
     "list": []
   },
   "time": {
-    "from": "now-1h",
+    "from": "now-24h",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Icebreaker",
   "uid": "icebreaker",
-  "version": 10
+  "version": 13
 }
