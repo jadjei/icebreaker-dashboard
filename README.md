@@ -1,3 +1,4 @@
+![Grafana Dashboard Screenshot](images/screenshot.png)
 
 Configure prometheus to pull metrics from your Icebreaker server and port.
 
